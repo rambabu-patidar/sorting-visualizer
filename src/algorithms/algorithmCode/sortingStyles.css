@@ -1,0 +1,25 @@
+.code {
+  width: 50%;
+  margin: auto;
+}
+
+.code button {
+  padding: 0.7rem 4rem;
+  background-color: rgb(147, 147, 147);
+  border: none;
+  border-radius: 15px;
+  font-size: larger;
+}
+
+.code button:hover {
+  box-shadow: 1px 1px 1px 1px black;
+
+}
+
+.program {
+  text-align: left;
+  font-size: larger;
+  border-width: 0 0 0 5px;
+  border-color: rgb(0, 94, 255);
+  border-style: solid;
+}

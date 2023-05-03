@@ -1,0 +1,16 @@
+.AppControls__Size {
+  display: inline-flex;
+  flex-flow: row nowrap;
+  align-items: center;
+}
+
+.logout-button {
+  text-transform: uppercase;
+  padding: .5rem 1rem;
+  border: none;
+  background-color: white;
+}
+
+.logout-button:hover {
+  background-color: rgb(246, 121, 121);
+}

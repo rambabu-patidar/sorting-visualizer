@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Foldit&family=Indie+Flower&family=Kalam&family=Lobster&display=swap');
+
+.frontpage {
+  box-sizing: border-box;
+  min-height: 100vh;
+  background-color: rgb(62, 61, 61);
+  padding-top: 5rem;
+  background-image: url("../assets/images/black-background.jpg");
+  background-size: contain;
+}
+
+.card {
+  padding: 1rem;
+  border-radius: 15px;
+  background-color: white;
+  width: 50%;
+  margin: auto;
+}
+
+.heading h1 {
+  margin: 0;
+  text-align: center;
+  font-size: xx-large;
+}
+
+.loginFormHeading {
+  text-align: center;
+  text-decoration: underline;
+}
+
+.login {
+  margin-top: 4rem;
+}
+
+.formControls {
+  display: grid;
+  gap: 1rem;
+}
+
+.formControl label,
+.formControl input {
+  display: block;
+  font-size: large;
+}
+
+.formControl input {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 3px;
+  border: 1px solid grey;
+}
+
+.formControl input:focus {
+  outline: none;
+  background-color: rgb(210, 234, 255);
+}
+
+
+.formSubmit {
+  text-align: right;
+  padding: 2rem 2rem 0 0;
+}
+
+.formSubmit button {
+  padding: 0.5rem 3rem;
+  font-size: larger;
+  background: #5092f6;
+  border: none;
+  border-radius: 10px;
+  color: white;
+}
+
+.formSubmit button:hover {
+  background: #1f6feb;
+}
+
+.invalid {
+  background-color: #fe535334;
+}
+
+.bubble,
+.shell,
+.selection,
+.quick,
+.insertion,
+.merge {
+  position: absolute;
+
+}
+
+
+
+.insertion {
+  color: #f806634e;
+  top: 300px;
+  left: 40px;
+  transform: rotateZ(-45deg);
+  font-size: medium;
+
+}
+
+.quick {
+  color: #65fd0052;
+  top: 590px;
+  left: 400px;
+  transform: rotateZ(-45deg);
+  font-family: "Kalam";
+  font-size: x-large;
+}
+
+.selection {
+  color: #d900ff69;
+  top: 250px;
+  right: 150px;
+  transform: rotateZ(-45deg);
+  font-family: "Lobster";
+  font-size: larger;
+}
+
+.bubble {
+  color: #ffffff52;
+  top: 70px;
+  left: 40px;
+  font-family: "Indie Flower";
+  transform: rotateZ(-45deg);
+}
+
+.shell {
+  color: #00eaff6a;
+  top: 4rem;
+  right: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  transform: rotateZ(-45deg);
+}
+
+.merge {
+  color: #0015ff59;
+  top: 500px;
+  right: 100px;
+  transform: rotateZ(-45deg);
+  font-size: x-large;
+  font-family: "Bruno Ace SC";
+}
+
+.error {
+  color: red;
+  padding-top: 1rem;
+}
